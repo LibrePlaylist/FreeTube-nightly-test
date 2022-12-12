@@ -81,7 +81,7 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{secrets.ACCESS_TOKEN}}
-          branch: development
+          branch: upstream-src
 
       - name: Upload AppImage x64 Release
         uses: actions/upload-release-asset@v1
